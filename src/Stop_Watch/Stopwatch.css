@@ -1,0 +1,32 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px grey;
+  background-color: #9b9b9b;
+}
+.time-display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+button {
+  border: 1px solid grey;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px grey;
+}
