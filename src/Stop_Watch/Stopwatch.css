@@ -12,11 +12,12 @@
   background-color: #9b9b9b;
 }
 .time-display {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 5px; */
   text-align: center;
+  font-weight: 500;
 }
 .buttons {
   display: flex;
